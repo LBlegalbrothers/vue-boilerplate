@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load render_bundle from webpack_loader %}
+
+{% block title %}
+  <title>$$$$$</title>
+{% endblock %}
+
+{% block stylebase %}
+  {% render_bundle "$$$$$" attrs="defer" %}
+{% endblock %}
+
+{% block content %}
+  <div id="app"></div>
+
+  <script>
+    new Context({
+      name: '$$$$$',
+      urls: {},
+      images: {},
+    })
+  </script>
+{% endblock %}
