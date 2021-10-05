@@ -23,15 +23,15 @@ export default {
 
 #app {
   width: 100%;
-  height: calc(100% - #{$nav-height});
+  height: calc(100vh - #{$nav-height});
   @include custom-flex(center, center);
 
   @include mobile {
-    height: calc(100% - #{$nav-mobile-height});
+    height: calc(100vh - #{$nav-mobile-height});
   }
 
   .container {
-    @include custom-flex(center, center);
+    @include custom-flex(center, center, column);
   }
 }
 </style>
