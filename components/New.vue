@@ -1,9 +1,9 @@
 <template>
-  <div>{{ getDT('name') }}</div>
+  <div>new Component</div>
 </template>
 
 <script>
 export default {
-  DT: ['name'],
+  DT: [],
 }
 </script>
