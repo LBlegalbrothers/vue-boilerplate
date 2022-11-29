@@ -6,5 +6,5 @@ npx 를 통해 lawandgood 프로젝트에 vue 페이지 템플릿을 추가해�
 
 
 ```bash
-python manage.py startvue <앱이름>/<페이지이름>
+python scripts/startvue.py <앱이름>/<페이지이름>
 ```
